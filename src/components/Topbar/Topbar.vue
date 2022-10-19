@@ -1,8 +1,11 @@
 <template>
-  <div class="topbar"></div>
+  <div class='topbar'>
+    <input type='button' value='Click' />
+  </div>
 </template>
 
 <script>
+
 export default {
   name: 'Topbar',
 };

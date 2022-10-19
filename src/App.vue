@@ -1,12 +1,13 @@
 <template>
   <Sidebar />
   <div class="container">
-    <Topbar />
+    <!-- <Topbar /> -->
     <router-view />
   </div>
 </template>
 
 <script>
+import './assets/classes.scss';
 import Sidebar from './components/Sidebar/Sidebar.vue';
 import Topbar from './components/Topbar/Topbar.vue';
 
